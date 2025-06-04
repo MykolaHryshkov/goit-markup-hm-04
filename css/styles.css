@@ -1,0 +1,356 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #434455;
+    background-color: #FFFFFF;
+    font-size: 16px;
+    letter-spacing: 0.02em; 
+}
+
+.headerone {
+    border-bottom: 1px solid #e7e9fc;
+}
+
+img {
+    display: block;
+}
+
+ul {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    list-style: none;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.container { 
+    width: 1158px; 
+    padding-left: 15px;
+    padding-right: 15px;
+   margin: 0 auto;
+    }
+
+    .headerone .container {
+    display: flex;   
+}
+
+    .header_logotipe {
+    color: #4D5AE5;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    vertical-align: middle;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-right: 76px;
+    }
+
+    .ulnav {
+        display: flex;
+        gap: 40px;
+        list-style: none;
+
+    }
+
+.header_logo {
+    color: #2E2F42;
+}
+
+.header_menu_link {
+    color: #2E2F42;    ;
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 2%;
+    text-decoration: none;
+    display: flex;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.uladdress {
+    display: flex;
+    gap: 40px ;
+    list-style: none;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.nav_nav {
+    display: flex;
+    align-items: center;
+    margin-right: 252px;
+
+}
+
+.header_menu_link:hover,
+.header_menu_link:focus {
+    color: #404BBF; 
+    list-style: none;
+}
+
+.header_address {
+    font-style: normal;
+    color: #434455;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    list-style: none;
+    text-decoration: none;
+}
+
+.header_address:hover,
+.header_address:focus {
+    color: #404bbf;
+}
+
+.effective_solutions {
+    background-color: #2e2f42;
+    padding-top: 188px;
+    padding-bottom: 188px;
+}
+
+.heffective_solutions {
+    font-weight: 496;
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #ffffff;
+    max-width: 496px;
+    text-align: center;
+    margin: 0 auto 48px;
+}
+
+
+.button_service {
+    background-color: #4D5AE5;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    cursor: pointer;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
+    display: block;
+    margin-top: 48px;
+    margin-left: 480px;
+    margin-right: 480px;
+    
+
+}
+.button_service:hover,
+.button_service:focus {
+    background-color: #404BBF;
+}
+
+.hsection {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    list-style: none;
+    margin-bottom: 8px;
+}
+
+.phsection {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+    list-style: none;
+}
+.sectiontwo {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden; }
+
+.ultwo {
+    display: flex;
+    gap: 24px;
+    list-style: none;
+}
+
+.litwo {
+    width: calc((100% - 3 * 24px) / 4);
+}
+
+.sectionthree {
+    background-color: #F4F4FD;
+    list-style: none;
+    padding-top: 120px;
+    padding-bottom: 120px;
+
+}
+
+.divpeople {
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.ulthree {
+    display: flex;
+    gap: 24px;
+    list-style: none;
+}
+
+.liclass {
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
+
+}
+
+.our_team {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+    margin-bottom: 72px;
+}
+
+.people {
+    background-color: #FFFFFF;
+    margin-bottom: 32px;
+}
+
+.hpeople {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    list-style: none;
+    margin-bottom: 8px;
+    text-align: center;
+    margin-bottom: 8px
+}
+
+.ppeople {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+    list-style: none;
+    text-align: center;
+
+}
+
+.our_portfolio_one{
+    padding-top: 120px;
+    padding-bottom: 120px;
+
+}
+
+.ulfour {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+    list-style: none;
+}
+
+.lifour {
+    width: calc((100% - 48px) / 3);
+}
+
+.divfour {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+}
+
+
+.our_portfolio {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+    margin-bottom: 72px;
+}
+
+.hsectionfour {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    list-style: none;
+    margin-bottom: 8px;
+}
+
+.psectionfour {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+    list-style: none;
+}
+
+.footer_footer {
+    background-color: #2e2f42;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.logo_footerweb {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px; 
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 16px;
+}
+
+.logo_footer {
+    color: #f4f4fd;
+    display: inline-block;
+}
+
+.p_footer {
+    line-height: 1.5;
+    color: #F4F4FD;
+    letter-spacing: 0.02em;
+    max-width: 264px;
+}
+
+.footerost {
+    width: 264px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    box-sizing: content-box;
+}
+
+
+
