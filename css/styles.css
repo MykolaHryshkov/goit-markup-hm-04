@@ -266,13 +266,13 @@ margin-bottom: 8px;
         transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-/* .teamlinkicon:hover,
+.teamlinkicon:hover,
 .teamlinkicon:focus {
-    background-color: #31D0AA;
-} */
+    background-color: #404bbf;
+}
 
 .three-imgone-icon {
-    fill: var(--color-cloud);
+    fill: #f4f4fd;
 }
 
 
@@ -437,7 +437,7 @@ margin-bottom: 8px;
     height: 40px;
 }
 
-.footer__icon-link {
+.footericonlink {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -448,8 +448,8 @@ margin-bottom: 8px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer__icon-link:hover,
-.footer__icon-link:focus {
+.footericonlink:hover,
+.footericon-link:focus {
     background-color: #31D0AA;
 }
 
