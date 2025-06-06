@@ -111,8 +111,25 @@ p, h1, h2, h3, h4, h5, h6 {
 
 .effective_solutions {
     background-color: #2e2f42;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+    rgba(46, 47, 66, 0.7)),
+    url(../images/peopleoffice1min.jpg);
     padding-top: 188px;
     padding-bottom: 188px;
+}
+
+.litwo-imgone {
+width: 264px;
+height: 112px;
+border: 1px solid #8E8F99 ;
+border-radius: 4%;
+background-color: #F4F4FD;
+display: flex;
+align-items: center;
+justify-content: center;
 }
 
 .heffective_solutions {
@@ -152,6 +169,10 @@ p, h1, h2, h3, h4, h5, h6 {
 .button_service:hover,
 .button_service:focus {
     background-color: #404BBF;
+}
+
+.litwo {
+    width: 264px; 
 }
 
 .hsection {
@@ -217,6 +238,40 @@ p, h1, h2, h3, h4, h5, h6 {
     gap: 24px;
     list-style: none;
 }
+
+.teamlisticons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+}
+
+.teamitemicon {
+    width: 40px;
+    height: 40px;
+}
+
+.teamlinkicon {
+    display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+        background-color: #4D5AE5;
+        border-radius: 50%;
+        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* .teamlinkicon:hover,
+.teamlinkicon:focus {
+    background-color: #31D0AA;
+} */
+
+.three-imgone-icon {
+    fill: var(--color-cloud);
+}
+
+
 
 .liclass {
     width: calc((100% - 72px) / 4);
@@ -352,5 +407,46 @@ p, h1, h2, h3, h4, h5, h6 {
     box-sizing: content-box;
 }
 
+.footer__icon-text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    color: var(--color-white);
+    margin-bottom: 16px; 
+}
+
+.footer__icon-list {
+    display: flex;
+    gap: 24px;
+    list-style: none;
+}
+
+.footer__icon-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+.footer__icon-item {
+    width: 40px;
+    height: 40px;
+}
+
+.footer__icon-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: #4D5AE5;
+    border-radius: 50%;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer__icon-link:hover,
+.footer__icon-link:focus {
+    background-color: #31D0AA;
+}
 
 
