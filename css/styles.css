@@ -520,5 +520,5 @@ fill: #f4f4fd;
 }
 
 .lifour:hover .stylishanduser {
-    transform: translateY(0);
+    transform: translateY(0%);
 }
