@@ -502,7 +502,6 @@ fill: #f4f4fd;
 .gallery_container {
     position: relative;
     overflow: hidden;
-
 }
 
 .stylishanduser {
@@ -520,6 +519,6 @@ fill: #f4f4fd;
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.gallery_container:hover {
+.stylishanduser:hover {
     transform: translateY(0%);
 }
