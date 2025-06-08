@@ -402,6 +402,11 @@ margin-bottom: 8px;
     max-width: 264px;
 }
 
+.footer__logo-wrapper {
+    margin-right: 120px;
+
+}
+
 .footerost {
     width: 264px;
     padding-top: 100px;
@@ -415,6 +420,7 @@ margin-bottom: 8px;
     line-height: 1.5;
     color: var(--color-white);
     margin-bottom: 16px; 
+    color: #FFFFFF;
 }
 
 .footer__icon-list {
@@ -447,8 +453,22 @@ margin-bottom: 8px;
 }
 
 .footericonlink:hover,
-.footericon-link:focus {
+.footericonlink:focus {
     background-color: #31D0AA;
+}
+
+.container_footter {
+    width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+    display: flex;
+    align-items: baseline;
+}
+
+.footer__icon_icon {
+fill: #f4f4fd;
+
 }
 
 
