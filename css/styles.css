@@ -8,6 +8,7 @@ body {
 
 .headerone {
     border-bottom: 1px solid #e7e9fc;
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 img {
@@ -74,6 +75,12 @@ p, h1, h2, h3, h4, h5, h6 {
     padding-bottom: 24px;
 }
 
+.header_menu_link .oneheader {
+    position: relative;
+    color: #404bbf;
+
+}
+
 .uladdress {
     display: flex;
     gap: 40px ;
@@ -102,6 +109,7 @@ p, h1, h2, h3, h4, h5, h6 {
     letter-spacing: 0.02em;
     list-style: none;
     text-decoration: none;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header_address:hover,
@@ -344,6 +352,7 @@ margin-bottom: 8px;
 .lifour:hover {
     width: calc((100% - 48px) / 3);
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    transform: translateY(0%);
 }
 
 
