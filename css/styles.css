@@ -90,7 +90,7 @@ p, h1, h2, h3, h4, h5, h6 {
 .nav_nav {
     display: flex;
     align-items: center;
-    margin-right: 252px;
+    margin-right: auto;
 
 }
 
@@ -100,7 +100,7 @@ p, h1, h2, h3, h4, h5, h6 {
     list-style: none;
 }
 
-.headeroneafter::after {
+.current::after {
     content: '' ;
     width: 100%;
     position: absolute;
@@ -314,7 +314,7 @@ margin-bottom: 8px;
 
 .people {
     background-color: #FFFFFF;
-    margin-bottom: 32px;
+    padding-bottom: 32px;
 }
 
 .hpeople {
@@ -336,6 +336,7 @@ margin-bottom: 8px;
     color: #434455;
     list-style: none;
     text-align: center;
+    margin-bottom: 8px;
 
 }
 
